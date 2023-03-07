@@ -1,0 +1,27 @@
+{
+  "name": "desafio-sonar-cloud",
+  "version": "1.0.0",
+  "description": "sonarCloud challenge fullcycle 3.0",
+  "main": "app/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "dev": "node ./app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fbueno12/fc-desafio-sonal-cloud.git"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "fbueno12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fbueno12/fc-desafio-sonal-cloud/issues"
+  },
+  "homepage": "https://github.com/Fbueno12/fc-desafio-sonal-cloud#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
