@@ -1,15 +1,15 @@
 const express = require('express')
 
-const app = express()
+const app = new express()
 
-const userService = require('./services/userService')
+const UserService = require('./services/UserService')
 
 app.get('/', (req, res) => {
     res.send({message: 'Hello, world!'})
 })
 
 app.get('/users', async (req, res) => {
-    res.send(await userService.getUser())
+    res.send(await UserService.getUser())
 })
 
 module.exports = app
