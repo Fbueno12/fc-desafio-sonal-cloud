@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
+    "tsc": "jest --coverage && sonar-scanner",
     "dev": "node src/app.js"
   },
   "repository": {
@@ -18,8 +19,11 @@
   },
   "homepage": "https://github.com/Fbueno12/fc-desafio-sonal-cloud#readme",
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
     "jest": "^29.5.0",
+    "sonarqube-scanner": "^3.0.1",
     "supertest": "^6.3.3"
   }
 }

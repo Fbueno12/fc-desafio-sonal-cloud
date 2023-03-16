@@ -1,4 +1,4 @@
-class userService {
+class UserService {
     async getUser() {
         return {
             id: 1,
@@ -6,4 +6,4 @@ class userService {
         }
     }
 }
-module.exports = new userService()
+module.exports = new UserService()
